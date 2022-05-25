@@ -1,0 +1,22 @@
+Goal- The goal of this program is to properly create a bubble sort algorithm in C, while using pointers.
+The goal of function printValues is to display the current values in the array when called. The goal of
+function sort is to sort the array in ascending order. The goal of swap is to swap the old array values
+with the new array values, making it so the function sort actually sorts the array. 
+
+Input- This program is using the following set of values: 7, 3, 9, 4, 6, 1, 2, 8, 5. These values were
+provided to us and are static. The function printValues will use the defined value of MAX (being 9) and the
+current values in the array as inputs. The fuction sort should take the same inputs as the function printValues,
+as well as the new array values outputted by the fucntion swap. The function swap will use the old array values as 
+an input.
+
+
+Output- When the program this program runs it ouputs the input values specified earlier sorted from lowest 
+to highest. The function printValues will ouput the current values in the array when called. The function sort 
+will output the new sorted array. The function swap will output the new array values.
+
+Steps- In order to accomplish all of this the program must call on the functions printValues, sort, and
+swap. By using a for loop and printf the function printValues will print out the current values in the array.
+The function sort will use nested for loops to set up the values to be swapped and later output the new values.   
+The funciton swap, will first set a temporary int equal to a pointer that represents the old values,
+then it sets the old pointer equal to a pointer that represents the new values, and finally sets
+the new pointer equal to temp.
